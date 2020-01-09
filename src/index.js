@@ -1,3 +1,34 @@
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Ejecutar JavaScript para mostrar la pagian principal
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+const element = document.createElement('h1');
+element.innerText = "Hello, Jaiden 1";
+
+const container = document.getElementById('root');
+
+container.appendChild(element);
+*/
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Utilizando react modificado
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const element = <h1>Hello, Jaiden 2</h1>;
+
+const container = document.getElementById('root');
+
+ReactDOM.render(element, container);
+*/
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Utilizando react predeterminado
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
